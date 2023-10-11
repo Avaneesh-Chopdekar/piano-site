@@ -37,7 +37,7 @@ header .column {
   align-items: center;
 }
 
-header .column span {
+header .column label {
   font-size: 1.19rem;
   font-weight: 500;
   margin-right: 15px;
