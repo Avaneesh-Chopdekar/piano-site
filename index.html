@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dope Piano</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Dope Piano</h2>
+        <div class="column volume-slider">
+          <span>Volume</span
+          ><input type="range" min="0" max="1" step="any" value="0.5" />
+        </div>
+        <div class="column keys-checkbox">
+          <span>Show Keys</span><input type="checkbox" checked />
+        </div>
+      </header>
+      <ul class="piano-keys">
+        <li class="key white" data-key="a"><span>a</span></li>
+        <li class="key black" data-key="w"><span>w</span></li>
+        <li class="key white" data-key="s"><span>s</span></li>
+        <li class="key black" data-key="e"><span>e</span></li>
+        <li class="key white" data-key="d"><span>d</span></li>
+        <li class="key white" data-key="f"><span>f</span></li>
+        <li class="key black" data-key="t"><span>t</span></li>
+        <li class="key white" data-key="g"><span>g</span></li>
+        <li class="key black" data-key="y"><span>y</span></li>
+        <li class="key white" data-key="h"><span>h</span></li>
+        <li class="key black" data-key="u"><span>u</span></li>
+        <li class="key white" data-key="j"><span>j</span></li>
+        <li class="key white" data-key="k"><span>k</span></li>
+        <li class="key black" data-key="o"><span>o</span></li>
+        <li class="key white" data-key="l"><span>l</span></li>
+        <li class="key black" data-key="p"><span>p</span></li>
+        <li class="key white" data-key=";"><span>;</span></li>
+      </ul>
+    </div>
+
+    <audio src="/tunes/a.wav" id="a"></audio>
+    <audio src="/tunes/w.wav" id="w"></audio>
+    <audio src="/tunes/s.wav" id="s"></audio>
+    <audio src="/tunes/e.wav" id="e"></audio>
+    <audio src="/tunes/d.wav" id="d"></audio>
+    <audio src="/tunes/f.wav" id="f"></audio>
+    <audio src="/tunes/t.wav" id="t"></audio>
+    <audio src="/tunes/g.wav" id="g"></audio>
+    <audio src="/tunes/y.wav" id="y"></audio>
+    <audio src="/tunes/h.wav" id="h"></audio>
+    <audio src="/tunes/u.wav" id="u"></audio>
+    <audio src="/tunes/j.wav" id="j"></audio>
+    <audio src="/tunes/k.wav" id="k"></audio>
+    <audio src="/tunes/o.wav" id="o"></audio>
+    <audio src="/tunes/l.wav" id="l"></audio>
+    <audio src="/tunes/p.wav" id="p"></audio>
+    <audio src="/tunes/;.wav" id=";"></audio>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
